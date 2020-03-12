@@ -29,3 +29,14 @@ deploy
 - 13.209.99.74 접속
 - 접속로그 확인 (리눅스에서 진행)
 - $ tail -f /var/apache2/access.log
+
+# error시
+- 소스코드 상에, 파일명, 설정값 등 오타가 없어져야함
+- git에 최종 소스가 모두 반영되어야  함
+- 리눅스에서 기존의 흔적을 모두 제거
+    $ 현재위치 : /home/ubuntu
+    프로젝트 삭제: $ rm -r -f deploy (파일, 디렉토리 모두 삭제)
+    숨긴 파일 확인: $ ls -a
+    가상환경 삭제: $ rm -r -f .virtualenvs
+- 로컬 pc
+    $ fab new_server

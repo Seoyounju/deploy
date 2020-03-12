@@ -1,5 +1,5 @@
 {
-    "REPO_URL":"https://github.com/kenshi/deploy",
+    "REPO_URL":"https://github.com/Seoyounju/deploy",
     "PROJECT_NAME":"de",
     "REMOTE_HOST":"ec2-13-209-99-74.ap-northeast-2.compute.amazonaws.com",
     "REMOTE_HOST_SSH":"13.209.99.74",

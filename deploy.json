@@ -1,7 +1,7 @@
 {
     "REPO_URL":"https://github.com/Seoyounju/deploy",
     "PROJECT_NAME":"deploy",
-    "REMOTE_HOST":"3.209.99.74",
+    "REMOTE_HOST":"13.209.99.74",
     "REMOTE_HOST_SSH":"13.209.99.74",
     "REMOTE_USER":"ubuntu"
   }

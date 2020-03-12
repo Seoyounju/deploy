@@ -28,7 +28,10 @@ deploy
 - 브라우저 가동
 - 13.209.99.74 접속
 - 접속로그 확인 (리눅스에서 진행)
-- $ tail -f /var/apache2/access.log
+- $ tail -f /var/log/apache2/access.log
+- 모니터링 하다가 빠져나가기 => ctrl + c
+- 에러로그
+    $ tail -f/var/log/apache2/error.log
 
 # error시
 - 소스코드 상에, 파일명, 설정값 등 오타가 없어져야함
@@ -40,3 +43,9 @@ deploy
     가상환경 삭제: $ rm -r -f .virtualenvs
 - 로컬 pc
     $ fab new_server
+
+# 가상호스트가 설정된 부분
+- deploy는 프로젝트명(deploy.json)
+- /etc/apache2/sites-available/deploy.conf
+- 파일읽기
+- $ cat /etc/apache2/sites-available/deploy.conf
